@@ -21,7 +21,6 @@ public:
     double getAverage() const;
     void setAverage(double newAverage);
 
-    void printData();
 };
 
 #endif // STUDENT_H

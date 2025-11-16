@@ -10,12 +10,16 @@ private:
 
 public:
     Rectangle();
-    double getWidth() const;
+    Rectangle(double w, double h);
+    ~Rectangle();
+
+    double getArea() const;
     void setWidth(double newWidth);
-    double getHeight() const;
+
+    double getCircum() const;
     void setHeight(double newHeight);
 
-    void printData();
+    void display() const;
 };
 
 #endif // RECTANGLE_H
