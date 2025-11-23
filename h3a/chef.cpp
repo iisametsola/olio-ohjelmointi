@@ -25,3 +25,4 @@ void Chef::makeSalad() {
 void Chef::makeSoup() {
     std::cout << "Chef " << name << " makes soup" << std::endl;
 }
+
